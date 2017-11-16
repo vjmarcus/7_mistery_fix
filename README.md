@@ -5,9 +5,8 @@
 # Как использовать
 
 from math import sqrt
-
-
-def get_roots(a, b, c):
+for movie in movies:
+    print(movie['name'])
 
 # Как запустить
 
