@@ -1,10 +1,22 @@
 # Решатель квадратных уравнений
 
-[TODO. Здесь будет описание проекта]
+Программа решает квадратные уровнения.
 
 # Как использовать
 
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
+from math import sqrt
+
+
+def get_roots(a, b, c):
+    discriminant = b ** 2 - 4 * a * c
+    if discriminant < 0:
+        return None, None
+    root1 = (-b - sqrt(discriminant)) / (2 * a)
+    root2 = (-b + sqrt(discriminant)) / (2 * a)
+    if discriminant == 0:
+        return root1, None
+    else:
+        return root1, root2
 
 # Как запустить
 
