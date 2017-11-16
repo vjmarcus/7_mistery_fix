@@ -24,7 +24,7 @@ def get_roots(a, b, c):
 Запуск на Linux:
 
 ```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
+python quadratic_equation.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
 ```
 
 Запуск на Windows происходит аналогично.
